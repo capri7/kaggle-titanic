@@ -27,11 +27,16 @@ This project focuses on predicting Titanic passenger survival using machine lear
 The most effective model was **LightGBM**, achieving an accuracy of 86.59% on the validation set.
 
 ## Key Results
-| Model     | Accuracy | F1-Score | Notes          |
-|-----------|----------|----------|----------------|
-| LightGBM  | 86.59%   | 85.92%   | Best overall   |
-| CatBoost  | 85.21%   | 84.45%   | Second-best    |
-| XGBoost   | 84.78%   | 83.94%   |                |
+| Model            | Accuracy | 
+|------------------|----------|
+| Random Forest    | 79.42%   | 
+| Ensembele        | 78.23%   | 
+| Gradient Boost   | 78.73%   | 
+| LightGBM         | 77.99%   | 
+| SVC              | 77.51%   | 
+| Stacking         | 77.51%   | 
+| CatBoost         | 77.27%   | 
+| XGBoost          | 76.79%   | 
 
 For detailed insights, see:
 - [LightGBM details](models/lightgbm/evaluation.md)
