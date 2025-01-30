@@ -78,6 +78,6 @@ The most effective model was **LightGBM**, achieving an accuracy of 86.59% on th
 | CatBoost         | 77.27%   | 
 | XGBoost          | 76.79%   | 
 
-For detailed insights, see:
+For detailed insights, see:　( Written in Japanese)
 - [LightGBM details](models/lightgbm/evaluation.md)
-- [CatBoost details](models/catboost/evaluation.md)
+
